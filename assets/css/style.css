@@ -1,0 +1,535 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: block;
+}
+/*fonts*/
+@font-face{
+    font-family:lemonmilk;
+    src: url(../fonts/LemonMilk.otf);
+}
+/*fonts end*/
+
+p{
+    text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: lemonmilk;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 45px;
+}
+h3{
+    font-family: 40px;
+}
+h4{
+    font-family: 35px;
+}
+h5{
+    font-family: 30px;
+}
+h6{
+    font-family: 25px;
+}
+p{
+    font-size: 20px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+}
+/*------*/
+/*HEADER*/
+/*------*/
+header{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+/*menu*/
+.menu-handler{
+    border: none;
+    position: relative;
+    top: -7px;
+    left: 10px;
+    background: none;
+    font-size: 45px;  
+    padding: 0 10px;
+    cursor: pointer;
+}
+.bars-menu{
+    width: 300px;
+    z-index: 1; 
+    position: fixed;
+    top: 10px;
+    left: 20px;
+}
+.logo{
+    display: inline-block;
+    padding: 0 10px;
+    width: 200px;
+}
+/*menu end*/
+/*vertical menu*/
+.vertical-menu{
+    display: none;
+    width: 100%;
+    height: 100%;
+
+}
+ol{
+    overflow: auto;
+    height: 100%;
+    width: 350px;
+    list-style-type: none;
+    padding-top: 70px;
+}
+li a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 20px 100px;
+    transition: all .5s ease;
+}
+.show-menu .vertical-menu{
+    display: block;
+}
+/*vertical menu end*/
+/*----------*/
+/*HEADER END*/
+/*----------*/
+
+/*----*/
+/*MAIN*/
+/*----*/
+main{
+    width: 100%;
+}  
+/*introduction*/
+.introduction{
+    background: url("../img/introduction.jpg") no-repeat fixed center;
+    background-size: 100% 100%;
+} 
+.introduction,
+.introduction-content{
+    width: 100%;
+    height: 885px;
+}
+.introduction-content-text{
+    width: 80%;
+    position: relative;
+    top: 30%;
+    left: 10%;
+}
+/*introduction end*/
+/*first section*/
+.first-section{
+    width: 100%;
+}
+/*first article*/
+.first-article{
+    width: 100%;
+}
+.first-article-content{
+    width: 80%;
+    position: relative;
+    top: 0px;
+    left: 10%;
+    height: 1250px;
+}
+.first-article-info{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    top: 10%;
+}
+.first-info{
+    width: 30%;
+    height: 460px;
+    float: left;
+    margin: 20px 20px 0px 20px;
+}
+.first-info-icon{
+    width: 200px;
+    height: 170px;
+    position: relative;
+    left: 20%;
+    top: 20px;
+    border-radius: 30px;
+    font-size: 150px;
+}
+.first-info-text{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.first-info-text p{
+    font-size: 17px;
+}
+/*first article end*/
+/*first section end*/
+/*second sections*/
+.second-section{
+    width: 100%;
+}
+/*second article*/
+.second-article{
+    width: 100%;
+    height: 885px;
+}
+.second-article-content{
+    width: 80%;
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+.second-article-images{
+    width: 100%;
+}
+.second-article-image{
+    display: block;
+    float: left;
+    width: 288px;
+    height: 500px;
+    margin: 12px 12px 0px 0px;
+}
+.second-article-image:first-child{
+    border-radius: 40px 0px 0px 40px;
+}
+.second-article-image:last-child{
+    border-radius: 0px 40px 40px 0px;
+}
+/*second article end*/
+/*second section end*/
+/*third section*/
+.third-section{
+    width: 100%;
+    background: url("../img/biography.jpg") no-repeat fixed center;
+    background-size: 100% 100%;
+}
+/*third article*/
+.third-article{
+    width: 100%;
+    height: 885px;
+    padding: auto 20px;
+}
+.third-article-content{
+    width: 50%;
+    height: 96%;
+    position: relative;
+    top: 2%;
+    left: 25%;
+    border-radius: 10%;
+    padding: 20px;
+}
+.presentation-image{
+    width: 100;
+    position: relative;
+    left: 37.5%;
+}
+.presentation-image-profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+}
+.biography{
+    position: relative;
+    top: 5%;
+    width: 90%;
+    left: 5%;
+}
+/*third article end*/
+/*third section end*/
+/*--------*/
+/*MAIN END*/
+/*--------*/
+
+/*------*/
+/*FOOTER*/
+/*------*/
+footer{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 80px;
+}
+.footer-parts{
+    width: 100%;
+    text-align: center;
+}
+.footer-partleft{
+    width: 50%;
+    height: 40px;
+    float: left;
+    padding: 10px 0px 0px 0px;
+}
+.footer-part-text{
+    font-size: 15px;
+    text-align: center;
+}
+.footer-partright{
+    width: 50%;
+    height: 40px;
+    float: left;
+    font-size: 15px;
+}
+.footer-partright i{
+    margin: 10px 10px;
+}
+.footer-partbottom{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0 0 0;
+}
+/*----------*/
+/*FOOTER END*/
+/*----------*/
+
+/*-----------*/
+/*MEDIA QUERY*/
+/*-----------*/
+@media screen and (max-width:1500px){
+/*header*/
+
+/*header end*/
+/*first*/
+.first-article-content{
+    height: 1500px;
+}
+.first-article-info{
+    top: 5%;
+}
+.first-info{
+    width: 45%;
+}
+.first-info-icon{
+    left: 35%;
+    top: 20px;
+}
+.first-info-text{
+    width: 100%;
+    left: 30px;
+}
+/*first end*/
+/*second */
+.second-article{
+    height: 1500px;
+}
+.second-article-image{
+    width: 31%;
+    height: 480px;
+    border-radius: 40px;
+    margin: 20px 20px 0px 0px;
+}
+.second-article-image:first-child,
+.second-article-image:last-child
+{
+    border-radius: 40px;
+}
+/*second end*/
+/*third*/
+.third-article-content{
+    width: 60%;
+    left: 20%;
+    padding: 20px;
+}
+.presentation-image{
+    left: 34%;
+}
+/*third end*/
+}
+@media screen and (max-width:1100px){
+h1{
+    font-size: 30px;
+}    
+h2{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+}
+/*header*/
+
+/*header end*/
+/*introduction*/
+.introduction,
+.introduction-content{
+    width: 100%;
+    height: 600px;
+}
+/*introduction end*/
+/*first*/
+.first-article-content{
+    height: 2400px;
+}
+.first-info{
+    width: 100%;
+    height: 350px;
+}
+.first-info-icon{
+    left: 36%;
+    top: 20px;
+}
+.first-info-text{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+/*first end*/
+/*second*/
+.second-article{
+    height: 1200px;
+}
+.second-article-content{
+    top: 10%;
+}
+.second-article-images{
+    left: 0%;
+}
+.second-article-image{
+    width: 47%;
+    height: 400px;
+    margin: 12px 12px 0px 0px;
+}
+.second-article-image:first-child,
+.second-article-image:last-child
+{
+    border-radius: 40px;
+}
+/*second end*/
+/*third article*/
+.third-article{
+    height: auto;
+}
+.third-article-content{
+    width: 80%;
+    left: 10%;
+    padding: 10px;
+}
+.presentation-image{
+    display: none;
+}
+.presentation-text{
+    font-size: 15px;
+}
+.biography{
+    width: 80%;
+    left: 10%;
+}
+/*third article end*/
+}
+@media screen and (max-width:500px){
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 18px;
+}
+p{
+    font-size: 15px;
+}
+/*introduction*/
+.introduction,
+.introduction-content{
+    width: 100%;
+    height: 700px;
+}
+/*introduction end*/
+/*first*/
+.first-article-content{
+    width: 90%;
+    left: 5%;
+    height: 1800px;
+}
+.first-article-info{
+    width: 100%;
+    top: 2%;
+}
+.first-info{
+    width: 90%;
+    height: 270px;
+}
+.first-info-icon{
+    width: 170px;
+    height: 70px;
+    left: 35%;
+    top: 0px;
+    font-size: 80px;
+}
+.first-info-text{
+    width: 100%;
+    height: 170px;
+}
+.first-info-text p{
+    font-size: 13px;
+}
+/*first end*/
+/*second*/
+.second-article{
+    width: 100%;
+    height: 2100px;
+}
+.second-article-content{
+    width: 90%;
+    position: relative;
+    top: 5%;
+    left: 5%;
+}
+.second-article-images{
+    width: 100%;
+}
+.second-article-image{
+    display: block;
+    background-color: #000;
+    position: relative;
+    left: 5%;
+    float: left;
+    width: 90%;
+    height: 450px;
+    margin: 12px 12px 0px 0px;
+}
+/*second end*/
+/*third article*/
+.third-section{
+    background-size: 250% 100%;
+}
+.third-article-content{
+    width: 90%;
+    left: 5%;
+    padding: 10px;
+}
+/*third article end*/
+/*footer*/
+.footer-part-text{
+    font-size: 10px;
+    text-align: center;
+}
+.footer-partright{
+    width: 50%;
+    height: 40px;
+    float: left;
+    font-size: 10px;
+}
+/*footer end*/
+}
+/*---------------*/
+/*MEDIA QUERY END*/
+/*---------------*/

@@ -1,0 +1,60 @@
+
+body{
+    background-color:#000;    
+}
+::-webkit-scrollbar-thumb{
+    background-color:  #09b2e5;
+}
+::-webkit-scrollbar-track{
+    background-color: #29f498;
+}
+.vertical-menu{
+    background-color: #00000090;
+
+}
+ol{
+    background: linear-gradient(#29f498, #09b2e5);
+}
+li a{
+    color: #000;
+    border-bottom: 1px solid #00000070;
+}
+li a:hover{
+    background: #00000090;
+}
+hr{
+    border: 1px solid #000;
+}
+
+.introduction-content{   
+    background: linear-gradient(#29f49870, #09b2e550);
+    color: #000;
+}
+.first-section{
+    background-color: #f5f5f5;
+}
+.first-info-icon{
+    color: #000;
+}
+.second-section{
+    background-color: #f5f5f5;
+}
+.second-article-content{
+    color: #000;
+}
+.second-article-image{
+    background: linear-gradient(#29f498, #09b2e5);
+}
+.third-article{
+    background: linear-gradient(#29f49870, #09b2e570);
+}
+.third-article-content{
+    background: #f5f5f5;
+}
+.presentation-image-profile{
+    background: linear-gradient(#29f498, #09b2e5);
+}
+footer{
+    background: linear-gradient(#29f498, #09b2e5);
+    color: #000;
+}

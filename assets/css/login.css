@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*fonts*/
+@font-face{
+    font-family:lemonmilk;
+    src: url(../fonts/LemonMilk.otf);
+}
+/*fonts end*/
+
+h1, h2, h3, h4, h5, h6{
+    font-family: lemonmilk;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 45px;
+}
+h3{
+    font-family: 40px;
+}
+h4{
+    font-family: 35px;
+}
+h5{
+    font-family: 30px;
+}
+h6{
+    font-family: 25px;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.login {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/biography.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.login-layer{
+    width: 100%;
+    height: 100vh;
+    background: #00000060;
+    padding: 5% 0;
+}
+.form-box {
+    height: 70%;
+    background-color: white;
+    width: 35%;
+    border-radius: 10%;
+    margin: 0 5%;
+}
+.form{
+    width: 100%;
+    height: 90vh;
+    padding: 5% 5%;
+}
+.text-box{
+    display: block;
+    border: solid 1px #000;
+    border-radius: 10px;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.text-box:first-child{
+    margin: 0 20px;
+}
+.remember{
+    font-size: 20px;
+    text-align: justify;
+}
+.remember-check{
+    width: 20px;
+    height: 20px;
+}
+.remember-text{
+    display: inline;
+    position: relative;
+    top: -5px;
+}

@@ -1,0 +1,30 @@
+
+::-webkit-scrollbar-thumb{
+    background-color:  #09b2e5;
+}
+::-webkit-scrollbar-track{
+    background-color: #29f498;
+}
+.first-part{
+    background: linear-gradient(#29f49860, #09b2e560);
+    border-right: 1px solid #00000001;
+}
+.second-part{
+    background: linear-gradient(#29f49860, #09b2e560);
+}
+.first-part a {
+    border-bottom: 1px solid #00000020;
+    color: black;
+}
+.first-part a:hover{
+    background: linear-gradient(#29f498, #09b2e5);
+}
+.theme{
+    border: 1px solid #09b2e5;
+}
+.theme-text{
+    color: #000;
+}
+.dark-layer{
+    background-image: linear-gradient(#29f49870, #09b2e570);
+}

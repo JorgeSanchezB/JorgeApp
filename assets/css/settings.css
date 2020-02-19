@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*fonts*/
+@font-face{
+    font-family:lemonmilk;
+    src: url(LemonMilk.otf);
+}
+/*fonts end*/
+h1, h2, h3, h4, h5, h6{
+    font-family: LemonMilk;
+    text-align: center;
+    margin-top: 10px;
+}
+
+::-webkit-scrollbar{
+    width: 2px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+}
+header{
+    width: 5%;
+    height: auto;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+.content-settings{
+    width: 100%;
+    height: 100vh;
+}
+.first-part{
+    width: 30%;
+    height: 100%;
+    float: left;
+    overflow: auto;
+}
+.second-part{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.first-part a {
+    display: block;
+    padding: 20px 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.first-part a:hover{
+}
+.themes{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.theme{
+    width: 43%;
+    height: 30%;
+    margin: 2% 3%;
+    float: left;
+    position: relative;
+}
+.theme-text{
+    display: block;
+    position: relative;
+    top: 45%;
+    text-align: center;
+}
+.dark-layer{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.theme:hover .dark-layer{
+    display: block;
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+.back{
+    width: 2%;
+    background-color: transparent;
+    position: fixed;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+}
+.back-button{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+}
